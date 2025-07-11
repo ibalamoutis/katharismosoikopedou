@@ -18,6 +18,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px 0;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
@@ -249,12 +269,12 @@ header button:hover {
   </div>
 
   <section>
-    <h2>Μετά τον Καθαρισμό</h2>
-    <div class="grid">
-      <div class="card"><img src="katharismos1.jpg" alt="Καθαρισμένο οικόπεδο χωρίς χόρτα και σκουπίδια"><p></p></div>
-      <div class="card"><img src="katharismos2.jpg" alt="Καθαρισμένο οικόπεδο χωρίς χόρτα και σκουπίδια"><p></p></div>
-      <div class="card"><img src="katharismos3.jpg" alt="Καθαρισμένο οικόπεδο χωρίς χόρτα και σκουπίδια"><p></p></div>
-      <div class="card"><img src="katharismos4.jpg" alt="Καθαρισμένο οικόπεδο χωρίς χόρτα και σκουπίδια"><p></p></div>
+    <h2>Φωτογραφίες Καθαρισμού Οικοπέδων</h2>
+    <div class="gallery">
+      <img src="katharismos1.jpg" alt="Καθαρισμένο οικόπεδο χωρίς χόρτα και σκουπίδια"><p></p>
+      <img src="katharismos2.jpg" alt="Καθαρισμένο οικόπεδο χωρίς χόρτα και σκουπίδια"><p></p>
+      <img src="katharismos3.jpg" alt="Καθαρισμένο οικόπεδο χωρίς χόρτα και σκουπίδια"><p></p>
+      <img src="katharismos4.jpg" alt="Καθαρισμένο οικόπεδο χωρίς χόρτα και σκουπίδια"><p></p>
     </div>
   </section>
 
