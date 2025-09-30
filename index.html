@@ -1,107 +1,133 @@
-﻿<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="el">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Καθαρισμός Οικοπέδου σε όλη την Αθήνα| Τάσος 6977061929</title>
+  <title>Καθαρισμός Οικοπέδων Αθήνα & Αττική | Τάσος 6977061929</title>
 
+  <!-- SEO Meta -->
+  <meta name="description" content="Επαγγελματικός καθαρισμός οικοπέδων στην Αθήνα & Αττική. Αποψίλωση, κοπή χόρτων, απομάκρυνση απορριμμάτων. Καλέστε Τάσο: 6977061929.">
+  <meta name="keywords" content="Καθαρισμός οικοπέδου, Αποψίλωση, Καθαρισμός οικοπέδου Γλυφάδα, Βούλα, Βάρη, Καλαμάκι, Καθαρισμός κήπου, Κοπή χόρτων, Τάσος">
+  <meta name="author" content="Τάσος">
+  <meta name="robots" content="index, follow">
 
-<meta name="keywords" content="Καθαρισμός οικοπέδου Ανάβυσσος, Ζωγράφου, Καρέας, Βύρωνας, Καλαμάκι, Τερψιθέα, Γλυκά Νερά, Αγία Παρασκευή, Καλύβια, Βάρη, Κίτσι  και σε όλη την Αθήνα, αποψίλωση, καθαρισμός κήπου, κοπή χόρτων, Τάσος, οικονομικές τιμές, πρόληψη πυρκαγιάς">
-<meta name="description" content="Καθαρισμός οικοπέδου στη Ανάβυσσος, Ζωγράφου, Καρέας, Βύρωνας, Καλαμάκι, Τερψιθέα, Γλυκά Νερά, Αγία Παρασκευή, Καλύβια, Βάρη, Κίτσι και σε όλη την Αθήνα με υπευθυνότητα και χαμηλές τιμές. Αποψίλωση, κοπή χόρτων. Καλέστε Τάσος: 6977061929.">
-
-<meta name="description" content="Καθαρισμός οικοπέδου στη Γλυφάδα, Άλιμος, Πικέρμι, Κορωπί, Βούλα, Βάρκιζα, Αργυρούπολη, Ηλιούπολη, καλλιθέα, Βουλιαγμένη και σε όλη την Αττική με υπευθυνότητα και χαμηλές τιμές. Αποψίλωση, κοπή χόρτων. Καλέστε Τάσος: 6977061929.">
-
-<meta name="keywords" content="Καθαρισμός οικοπέδου Γλυφάδα, Βούλα, Άλιμος, Πικέρμι, Κορωπί, Βούλα, Βάρκιζα, Αργυρούπολη, Ηλιούπολη, καλλιθέα, Βουλιαγμένη  και σε όλη την Αττική, αποψίλωση, καθαρισμός κήπου, κοπή χόρτων, Τάσος, οικονομικές τιμές, πρόληψη πυρκαγιάς">
-
-<meta name="author" content="Τάσος">
-
-<meta name="robots" content="index, follow">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <!-- Styles -->
   <style>
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
-  padding: 20px 0;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-}
-
-.gallery img:hover {
-  transform: scale(1.05);
-}
-
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      background: #ffffff;
+      background: #fafafa;
       color: #333;
       line-height: 1.6;
     }
 
+    /* Top Bar */
     .top-bar {
       background: #ff7f00;
       color: white;
-      text-align: center;
-      padding: 10px 0;
-      font-size: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      padding: 15px;
+      font-size: 20px;
+      flex-wrap: wrap;
+    }
+    .top-bar img {
+      height: 100px;
+    }
+    .top-bar a {
+      color: white;
+      text-decoration: underline;
     }
 
+    /* Navigation */
+    nav {
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      padding: 15px 0;
+      display: block;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #ff7f00;
+    }
+    .lang-switch {
+      margin-left: auto;
+      margin-right: 20px;
+    }
+    .lang-switch button {
+      background: #ff7f00;
+      border: none;
+      color: #fff;
+      padding: 8px 15px;
+      margin-left: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .lang-switch button:hover {
+      background: #e56700;
+    }
+
+    /* Header */
     header {
       background: url('clean-land.jpg') no-repeat center/cover;
       color: #fff;
       padding: 100px 20px;
       text-align: center;
     }
-
     header h1 {
       font-size: 42px;
       margin-bottom: 15px;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-      color: red;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
     }
-
     header p {
       font-size: 20px;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
     }
+    header button {
+      font-size: 48px;
+      color: red;
+      font-weight: bold;
+      background-color: yellow;
+      border: none;
+      padding: 20px 40px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 25px;
+      transition: background-color 0.3s, color 0.3s;
+      text-transform: uppercase;
+    }
+    header button:hover {
+      background-color: gold;
+      color: darkred;
+    }
 
- header button {
-  font-size: 48px;          /* 4 φορές μεγαλύτερο από 24px */
-  color: red;
-  font-weight: bold;
-  background-color: yellow; /* γεμάτο κίτρινο φόντο */
-  border: none;             /* χωρίς περίγραμμα */
-  padding: 20px 40px;
-  border-radius: 10px;
-  cursor: pointer;
-  margin-top: 25px;
-  transition: background-color 0.3s, color 0.3s;
-  text-transform: uppercase;
-}
-
-header button:hover {
-  background-color: gold;
-  color: darkred;
-}
-
-
-
+    /* Sections */
     section {
       max-width: 1200px;
       margin: auto;
       padding: 40px 20px;
     }
-
     h2 {
       font-size: 28px;
       margin-bottom: 20px;
@@ -111,24 +137,22 @@ header button:hover {
     }
 
     .dropdown {
-      background: #fffaf2;
+      background: #fff;
       border-radius: 8px;
       margin-bottom: 15px;
       box-shadow: 0 2px 4px rgba(0,0,0,0.05);
       overflow: hidden;
     }
-
     .dropdown summary {
       padding: 15px;
       cursor: pointer;
       font-weight: bold;
       background: #ffe5cc;
     }
-
     .dropdown p {
       padding: 15px;
       margin: 0;
-	text-align: justify;
+      text-align: justify;
     }
 
     .dual-section {
@@ -137,194 +161,93 @@ header button:hover {
       gap: 40px;
       justify-content: space-between;
     }
-
     .dual-section section {
       flex: 1;
       min-width: 300px;
     }
 
-    .grid {
-      display: flex;
-      flex-wrap: wrap;
+    /* Gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
-      justify-content: center;
+      padding: 20px 0;
     }
-
-    .card {
-      width: 250px;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      overflow: hidden;
-      transition: transform 0.3s;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    .card img {
+    .gallery img {
       width: 100%;
       height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
     }
 
-    .card p {
-      padding: 10px;
-      font-weight: 500;
-    }
-
-    form {
-      max-width: 500px;
-      margin: auto;
-    }
-
-    input, textarea {
-      width: 100%;
-      padding: 12px;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-    }
-
-    button[type="submit"] {
-      background: #ff7f00;
-      border: none;
-      padding: 12px;
-      color: white;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    button[type="submit"]:hover {
-      background: #e56700;
-    }
-
+    /* Footer */
     footer {
       text-align: center;
       padding: 20px;
-      background: #f1f1f1;
+      background: #333;
+      color: #fff;
       font-size: 14px;
-      color: #666;
     }
+    footer a { color: #ff7f00; text-decoration: none; }
   </style>
 </head>
-
-<div id="offerModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.6); z-index:1000; display:none; justify-content:center; align-items:center;">
-  <div style="background:white; padding:30px; border-radius:10px; text-align:center; box-shadow:0 0 10px rgba(0,0,0,0.3); max-width: 400px;">
-    <h2 style="color:#d40000; font-size:26px; margin-bottom:20px;">ΠΡΟΣΦΟΡΑ</h2>
-	      <h2 style="color:#d40000; font-size:26px; margin-bottom:20px;">κ. ΤΑΣΟΣ</h2>
-	     <h2 style="color:#d40000; font-size:26px; margin-bottom:20px;">ΤΗΛ: 6977061929</h2>
-    <p style="font-size:18px; font-weight:bold; margin-bottom:20px;">
-      Μέχρι 31 Μαρτίου 2026:<br>
-      Καθαρισμός οικοπέδου 200τμ μόνο 120€<br>
-      και 400τμ μόνο 200€
-    </p>
-    <button onclick="closeOffer()" style="background:#ff7f00; color:white; border:none; padding:10px 20px; border-radius:5px; cursor:pointer;">Κλείσιμο</button>
-  </div>
-</div>
-
-
-
 <body>
-
   <div class="top-bar">
-	    <img src="logo.JPG" alt="Λογότυπο" style="height:80px; vertical-align: middle; margin-right: 10px;">
-    Ονοματεπώνυμο: Τάσος | Τηλέφωνο: <a href="tel:6977061929" style="color:white; text-decoration: underline;">6977061929</a> | Email: <a href="katharismosoikopedoutasos@gmail.com" style="color:white; text-decoration: underline;">katharismosoikopedoutasos@gmail.com</a>
+    <img src="logo.JPG" alt="Λογότυπο">
+    <span>Τάσος | Τηλ: <a href="tel:6977061929">6977061929</a> | Email: <a href="mailto:katharismosoikopedoutasos@gmail.com">katharismosoikopedoutasos@gmail.com</a></span>
   </div>
+
+  <nav>
+    <ul>
+      <li><a href="#services">Υπηρεσίες</a></li>
+      <li><a href="#whyus">Γιατί εμάς</a></li>
+      <li><a href="#gallery">Φωτογραφίες</a></li>
+    </ul>
+    <div class="lang-switch">
+      <button>GR</button>
+      <button>EN</button>
+    </div>
+  </nav>
 
   <header>
-    <h1>Καθαρισμός Οικοπέδου σε όλη την Αθήνα</h1>
-  
-<button onclick="showOffer()">Προσφορά</button>
-
-
+    <h1>Καθαρισμός Οικοπέδων Αθήνα & Αττική</h1>
+    <p>Αποψίλωση, καθαρισμός και απομάκρυνση απορριμμάτων με υπευθυνότητα & εμπειρία</p>
+    <button onclick="alert('Προσφορά: Καθαρισμός οικοπέδου 200τμ μόνο 120€ και 400τμ μόνο 200€. Καλέστε 6977061929!')">ΠΡΟΣΦΟΡΑ</button>
   </header>
 
   <div class="dual-section">
-    <section>
+    <section id="services">
       <h2>Οι Υπηρεσίες μας</h2>
-      <details class="dropdown">
-        <summary>Καθαρισμός οικοπέδων</summary>
-        <p>Αναλαμβάνουμε πλήρη καθαρισμό οικοπέδου σε όλη την Αττική από κάθε είδους βλάστηση, σκουπίδια και άλλα απορρίμματα. 
-    Με ειδικό εξοπλισμό και έμπειρο προσωπικό, ο καθαρισμός του οικοπέδου σας γίνεται γρήγορα, με ασφάλεια και είναι έτοιμο για οποιαδήποτε χρήση. 
-    Ιδανικό για συμμόρφωση με κανονισμούς πυροπροστασίας αλλά και για την αισθητική αναβάθμιση του χώρου.</p>
-      </details>
-       <details class="dropdown">
-        <summary>Απομάκρυνση χόρτων και απορριμμάτων</summary>
-        <p>Εξειδικευμένη απομάκρυνση χόρτων και απορριμμάτων. Αναλαμβάνουμε τη συλλογή και μεταφορά απορριμμάτων από οικόπεδα. 
-    Διαθέτουμε ειδικά οχήματα και εργαλεία ώστε η απομάκρυνση να γίνεται γρήγορα, αποτελεσματικά και με σεβασμό στο περιβάλλον.Καλύπτουμε
-όλες τις περιοχές:Γλυφάδα, Άλιμος, Πικέρμι, Κορωπί, Βούλα, Βάρκιζα, Αργυρούπολη, Ηλιούπολη, καλλιθέα, Βουλιαγμένη, 
-Ανάβυσσος, Ζωγράφου, Καρέας, Βύρωνας, Καλαμάκι, Τερψιθέα, Γλυκά Νερά, Αγία Παρασκευή, Καλύβια, Βάρη, Κίτσι</p>
-      </details>
-      <details class="dropdown">
-        <summary>Κοπή χόρτων & κλαδέματα</summary>
-        <p>Η κοπή χόρτων και το κλάδεμα δέντρων ή θάμνων είναι απαραίτητα για την καλή εικόνα και την ασφάλεια και τον καθαρισμό του οικοπέδου σας. 
-    Αναλαμβάνουμε τον καθαρισμό του οικοπέδου από χόρτα, κλαδιά και ανεπιθύμητη βλάστηση, πάντα με φροντίδα για τα υγιή φυτά και το περιβάλλον. 
-    Παρέχουμε εφάπαξ ή τακτικές υπηρεσίες ανάλογα με τις ανάγκες σας.</p>
-      </details>
+      <details class="dropdown"><summary>Καθαρισμός οικοπέδων</summary><p>Αναλαμβάνουμε καθαρισμό οικοπέδων σε όλη την Αττική, από βλάστηση, σκουπίδια και απορρίμματα. Ιδανικό για συμμόρφωση με κανονισμούς πυροπροστασίας & αισθητική αναβάθμιση.</p></details>
+      <details class="dropdown"><summary>Απομάκρυνση χόρτων & απορριμμάτων</summary><p>Συλλογή & μεταφορά απορριμμάτων με ειδικά οχήματα και εργαλεία, με σεβασμό στο περιβάλλον.</p></details>
+      <details class="dropdown"><summary>Κοπή χόρτων & κλαδέματα</summary><p>Κοπή χόρτων, κλάδεμα δέντρων και θάμνων. Εφάπαξ ή τακτικές υπηρεσίες ανάλογα με τις ανάγκες σας.</p></details>
     </section>
 
-    <section>
-      <h2>Γιατί να μας επιλέξετε;</h2>
-      <details class="dropdown">
-        <summary>Άμεση εξυπηρέτηση</summary>
-        <p>Κατανοούμε τη σημασία του χρόνου σας και προσφέρουμε άμεση εξυπηρέτηση σε Γλυφάδα, Άλιμο, Πικέρμι, Αργυρούπολη, Βούλα, Βάρκιζα, Κορωπί, Βουλιαγμένη και όλη την Αττική. 
-    Επιδιώκουμε πάντα να προγραμματίζουμε τις εργασίες μέσα σε λίγες ημέρες από την πρώτη επικοινωνία, για να έχετε το αποτέλεσμα που θέλετε χωρίς καθυστερήσεις.</p>
-      </details>
-      <details class="dropdown">
-        <summary>Έμπειρο προσωπικό</summary>
-        <p>Η ομάδα μας διαθέτει πολυετή εμπειρία στον καθαρισμό οικοπέδων. 
-    Χρησιμοποιούμε σύγχρονα μηχανήματα και τεχνικές, διασφαλίζοντας άριστο αποτέλεσμα με επαγγελματισμό και υπευθυνότητα. </p>
-      </details>
-      <details class="dropdown">
-        <summary>Οικονομικές τιμές</summary>
-        <p>Παρέχουμε υπηρεσίες υψηλής ποιότητας στις πιο ανταγωνιστικές τιμές της αγοράς. 
-    Ο καθαρισμός οικοπέδου χωρίς κρυφές χρεώσεις, με διαφάνεια και ειλικρίνεια. Σας προσφέρουμε οικονομικές λύσεις για κάθε ανάγκη. 
-    Εκμεταλλευτείτε τις προσφορές μας για ακόμη μεγαλύτερη εξοικονόμηση χρημάτων.</p>
-      </details>
+    <section id="whyus">
+      <h2>Γιατί να μας επιλέξετε</h2>
+      <details class="dropdown"><summary>Άμεση εξυπηρέτηση</summary><p>Ταχύς προγραμματισμός εργασιών σε Γλυφάδα, Άλιμο, Αργυρούπολη, Βούλα, Βάρκιζα, Κορωπί & σε όλη την Αττική.</p></details>
+      <details class="dropdown"><summary>Έμπειρο προσωπικό</summary><p>Η ομάδα μας διαθέτει πολυετή εμπειρία & σύγχρονα μηχανήματα, για άριστο αποτέλεσμα.</p></details>
+      <details class="dropdown"><summary>Οικονομικές τιμές</summary><p>Διαφάνεια, χωρίς κρυφές χρεώσεις. Εκμεταλλευτείτε τις ειδικές μας προσφορές.</p></details>
     </section>
   </div>
 
-  <section>
-    <h2>Φωτογραφίες Καθαρισμού Οικοπέδων</h2>
+  <section id="gallery">
+    <h2>Φωτογραφίες Καθαρισμού</h2>
     <div class="gallery">
-      <img src="katharismos1.jpg" alt="Καθαρισμός οικοπέδου χωρίς χόρτα και σκουπίδια">
-      <img src="katharismos2.jpg" alt="Καθαρισμός οικοπέδου χωρίς χόρτα και σκουπίδια">
-      <img src="katharismos3.jpg" alt="Καθαρισμός οικοπέδου χωρίς χόρτα και σκουπίδια">
-      <img src="katharismos4.jpg" alt="Καθαρισμός οικοπέδου χωρίς χόρτα και σκουπίδια">
+      <img src="katharismos1.jpg" alt="Καθαρισμός οικοπέδου">
+      <img src="katharismos2.jpg" alt="Καθαρισμός οικοπέδου">
+      <img src="katharismos3.jpg" alt="Καθαρισμός οικοπέδου">
+      <img src="katharismos4.jpg" alt="Καθαρισμός οικοπέδου">
     </div>
   </section>
 
- 
-<footer>
- 
- <p>
-    Εξυπηρετούμε: Γλυφάδα, Βούλα, Βάρκιζα, Βουλιαγμένη, Ελληνικό, Άλιμος, Καλαμάκι, Βύρωνας, Αργυρούπολη, Καλλιθέα, Νέα Σμύρνη, Παλαιό Φάληρο, Άγιος Δημήτριος, Βάρη, Κορωπί, Καρέας, Ζωγράφου, Ανάβυσσος, Πικέρμι και όλη την Αθήνα.
-  </p>
-  <p>© 2025 Καθαρισμός Οικοπέδων - Τάσος</p>
-	 <!-- hitwebcounter Code START -->
-<a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=21166262&style=0019&nbdigits=4&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>                        
-
+  <footer>
+    <p>Εξυπηρετούμε: Γλυφάδα, Βούλα, Βάρκιζα, Βουλιαγμένη, Ελληνικό, Άλιμος, Καλαμάκι, Βύρωνας, Αργυρούπολη, Καλλιθέα, Νέα Σμύρνη, Παλαιό Φάληρο, Άγιος Δημήτριος, Βάρη, Κορωπί, Ζωγράφου, Ανάβυσσος, Πικέρμι & όλη την Αθήνα.</p>
+    <p>© 2025 Καθαρισμός Οικοπέδων - Τάσος</p>
   </footer>
-<script>
-  function showOffer() {
-    document.getElementById('offerModal').style.display = 'flex';
-  }
-
-  function closeOffer() {
-    document.getElementById('offerModal').style.display = 'none';
-  }
-</script>
-
 </body>
 </html>
-
-
-
-
-
-
-
-
-
