@@ -104,24 +104,26 @@
       font-size: 20px;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
     }
-    header button {
-      font-size: 48px;
-      color: red;
-      font-weight: bold;
-      background-color: yellow;
-      border: none;
-      padding: 20px 40px;
-      border-radius: 10px;
-      cursor: pointer;
-      margin-top: 25px;
-      transition: background-color 0.3s, color 0.3s;
-      text-transform: uppercase;
-    }
-    header button:hover {
-      background-color: gold;
-      color: darkred;
-    }
 
+     header button {
+  font-size: 48px;          /* 4 φορές μεγαλύτερο από 24px */
+  color: red;
+  font-weight: bold;
+  background-color: yellow; /* γεμάτο κίτρινο φόντο */
+  border: none;             /* χωρίς περίγραμμα */
+  padding: 20px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 25px;
+  transition: background-color 0.3s, color 0.3s;
+  text-transform: uppercase;
+}
+
+header button:hover {
+  background-color: gold;
+  color: darkred;
+}
+  
     /* Sections */
     section {
       max-width: 1200px;
@@ -200,6 +202,10 @@
     <img src="logo.JPG" alt="Λογότυπο">
     <span>Τάσος | Τηλ: <a href="tel:6977061929">6977061929</a> | Email: <a href="mailto:katharismosoikopedoutasos@gmail.com">katharismosoikopedoutasos@gmail.com</a></span>
   </div>
+<div class="lang-switch">
+  <button onclick="window.location.href='index.html'">GR</button>
+  <button onclick="window.location.href='en/index.html'">EN</button>
+</div>
 
   <nav>
     <ul>
