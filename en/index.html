@@ -157,19 +157,8 @@
     }
 
     /* Gallery */
-    .gallery {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 15px;
-      padding: 20px 0;
-    }
-    .gallery img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      transition: transform 0.3s;
-    }
+    .gallery {display:grid; grid-template-columns:repeat(auto-fit,minmax(200px, 1fr)); gap:15px; padding:20px 0;}
+    .gallery img {width:100%; height:auto; max-width: 250px; margin:auto; display:block;}
     .gallery img:hover {
       transform: scale(1.03);
     }
