@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://github.com/ibalamoutis/katharismosoikopedou/blob/main/sitemap.xml
+Sitemap: https://ibalamoutis.github.io/katharismosoikopedou/sitemap.xml
