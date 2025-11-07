@@ -1,36 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- Αρχική Σελίδα -->
+  <!-- Κεντρική σελίδα -->
   <url>
     <loc>https://ibalamoutis.github.io/katharismosoikopedou/</loc>
-     <changefreq>monthly</changefreq>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <!-- Σελίδα Πολιτικής Απορρήτου -->
+  <url>
+    <loc>https://ibalamoutis.github.io/katharismosoikopedou/privacy.html</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://ibalamoutis.github.io/katharismosoikopedou/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 
   <!-- Αγγλική έκδοση -->
   <url>
     <loc>https://ibalamoutis.github.io/katharismosoikopedou/en/</loc>
-    <lastmod>2025-10-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.6</priority>
   </url>
 
-  <!-- Περιοχές -->
-  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/Anavissos/</loc></url>
-  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/Korwpi/</loc></url>
-  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/argyroupoli/</loc></url>
-  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/bari/</loc></url>
-  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/barkiza/</loc></url>
-  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/boula/</loc></url>
-  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/byrwnas/</loc></url>
-  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/elliniko/</loc></url>
-  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/hlioupoli/</loc></url>
-  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/kalamaki/</loc></url>
-  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/kallithea/</loc></url>
-  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/papagou/</loc></url>
-  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/sarwnida/</loc></url>
-  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/times/</loc></url>
-  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/zwgrafou/</loc></url>
+  <!-- Υποσελίδες περιοχών -->
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/Glyfada/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/pallini/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/brilissia/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/melissia/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/xolargos/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/lagonisi/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/AgiaParaskeyi/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/dionisos/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/dioni/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/stamata/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/sarwnida/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/spata/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/Paiania/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/hlioupoli/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/boula/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/barkiza/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/elliniko/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/kalamaki/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/byrwnas/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/argyroupoli/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/kallithea/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/bari/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/Korwpi/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/zwgrafou/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/Anavissos/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ibalamoutis.github.io/katharismosoikopedou/papagou/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
 </urlset>
+
