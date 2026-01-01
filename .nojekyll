@@ -1,10 +1,1 @@
-# 1. Στο root folder του site σου, δημιούργησε:
-echo "" > .nojekyll
 
-# 2. Commit
-git add .nojekyll
-git commit -m "Add .nojekyll for sitemap"
-git push
-
-# 3. Περίμενε 5 λεπτά
-# 4. Δοκίμασε πάλι το sitemap.xml στο browser
