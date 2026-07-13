@@ -42,7 +42,15 @@
     footer {text-align:center; padding:20px; background:#333; color:#fff; font-size:14px;}
     footer a {color:#ff7f00; text-decoration:none;}
     @media (max-width:768px){.top-bar{font-size:18px;} header h1{font-size:26px;} header button{font-size:26px; padding:12px 20px;} section{padding:20px 15px;} .gallery{grid-template-columns:1fr;}}
-  </style>
+  
+.before-after-slider{max-width:700px;margin:40px auto;text-align:center;}
+.slider-container{position:relative;width:100%;overflow:hidden;border-radius:10px;box-shadow:0 3px 10px rgba(0,0,0,.25);}
+.slider-container img{width:100%;display:block;}
+.after-image{position:absolute;top:0;left:0;width:50%;overflow:hidden;height:100%;}
+.labels{display:flex;justify-content:space-between;font-weight:bold;margin-top:10px;color:#ff7f00;}
+.slider{width:100%;margin-top:15px;}
+
+</style>
   <script>
     function showOffer(){document.getElementById('offerModal').style.display='flex';}
     function closeOffer(){document.getElementById('offerModal').style.display='none';}
@@ -154,6 +162,18 @@
       <img src="katharismos4.jpg" alt="Καθαρισμός οικοπέδου με επαγγελματικό εξοπλισμό">
     </div>
   </section>
+
+<section class="before-after-slider">
+<h2>Πριν &amp; Μετά τον Καθαρισμό</h2>
+<p style="text-align:center;">Σύρετε τη μπάρα για να δείτε τη διαφορά.</p>
+<div class="slider-container">
+<img src="before1.jpg" alt="Οικόπεδο πριν τον καθαρισμό">
+<div class="after-image" id="afterImage"><img src="after1.jpg" alt="Οικόπεδο μετά τον καθαρισμό"></div>
+</div>
+<div class="labels"><span>ΠΡΙΝ</span><span>ΜΕΤΑ</span></div>
+<input type="range" min="0" max="100" value="50" class="slider" id="compareSlider">
+</section>
+
 <section>
   <h2>Συχνές Ερωτήσεις</h2>
 
@@ -267,5 +287,11 @@
 	<a href="privacy.html">Πολιτική Απορρήτου</a>
   </footer>
   	
+
+<script>
+const slider=document.getElementById("compareSlider");
+const after=document.getElementById("afterImage");
+if(slider&&after){slider.addEventListener("input",function(){after.style.width=this.value+"%";});}
+</script>
 </body>
 </html>
