@@ -38,6 +38,10 @@
     footer {text-align:center; padding:20px; background:#333; color:#fff; font-size:14px;}
     footer a {color:#ff7f00; text-decoration:none;}
     @media (max-width:768px){.top-bar{font-size:18px;} header h1{font-size:26px;} header button{font-size:26px; padding:12px 20px;} section{padding:20px 15px;} .gallery{grid-template-columns:1fr;}}
+  
+   .before-after-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:30px}.before-after-card{background:#fff;padding:15px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.15)}.slider-container{position:relative;overflow:hidden}.slider-container>img,.after-image img{width:100%;display:block}.after-image{position:absolute;left:0;top:0;width:50%;overflow:hidden;height:100%}.ba-labels{display:flex;justify-content:space-between;color:#ff7f00;font-weight:bold}.ba-slider{width:100%}
+  
+  
   </style>
   <script>
     function showOffer(){document.getElementById('offerModal').style.display='flex';}
