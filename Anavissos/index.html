@@ -43,10 +43,13 @@
   
   
   </style>
-  <script>
+<script>
     function showOffer(){document.getElementById('offerModal').style.display='flex';}
     function closeOffer(){document.getElementById('offerModal').style.display='none';}
+function showGrassService(){document.getElementById('grassModal').style.display='flex';}
+function closeGrassService(){document.getElementById('grassModal').style.display='none';}
   </script>
+
  <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -106,10 +109,41 @@
       <button onclick="closeOffer()" style="background:#ff7f00; color:white; border:none; padding:10px 20px; border-radius:5px; cursor:pointer;">Κλείσιμο</button>
     </div>
   </div>
+
+<div id="grassModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.6); z-index:1000; justify-content:center; align-items:center;">
+  <div style="background:white; padding:30px; border-radius:10px; text-align:center; box-shadow:0 0 10px rgba(0,0,0,0.3); max-width:400px;">
+    <h2 style="color:#007a33; font-size:26px; margin-bottom:20px;">
+      ΝΕΑ ΥΠΗΡΕΣΙΑ
+    </h2>
+    <h3 style="margin-bottom:15px;">
+      ΚΟΠΗ ΧΟΡΤΩΝ ΜΕ ΚΑΤΑΣΤΡΟΦΕΑ
+    </h3>
+    <p style="font-size:17px; margin-bottom:20px;">
+      Επαγγελματική κοπή ψηλής και πυκνής βλάστησης με καταστροφέα.<br><br>
+      ✔ Ιδανικό για μεγάλα οικόπεδα<br>
+      ✔ Θρυμματισμός χόρτων ακόμα και ύψους 2 μέτρων<br>
+      ✔ Δημιουργία οργανικού λιπάσματος 3-5 εκατοστών<br>
+      ✔ Ταχύτερη ολοκλήρωση εργασίας άρα μείωση κόστους <br><br>
+      Τηλ: <strong>6977061929</strong>
+    </p>
+    <button onclick="closeGrassService()" style="background:#007a33; color:white; border:none; padding:10px 20px; border-radius:5px; cursor:pointer;">
+      Κλείσιμο
+    </button>
+  </div>
+</div>
+
+	
   <header>
     <h1>Επαγγελματικός καθαρισμός οικοπέδου στην Ανάβυσσο</h1>
     
-    <button onclick="showOffer()">ΠΡΟΣΦΟΡΑ</button>
+  <div style="display:flex; gap:15px; justify-content:center; flex-wrap:wrap; margin-top:25px;">
+  <button onclick="showOffer()">ΠΡΟΣΦΟΡΑ</button>
+
+  <button onclick="showGrassService()" style="background:#28a745; color:white;">
+    ΚΟΠΗ ΧΟΡΤΩΝ ΜΕ ΚΑΤΑΣΤΡΟΦΕΑ
+  </button>
+</div>
+
   </header>
   <section id="intro" style="text-align: justify;">
   <p>Αναλαμβάνουμε επαγγελματικό <strong>καθαρισμό οικοπέδων στην Ανάβυσσο</strong> και όλη την Αττική, σύμφωνα με τους κανονισμούς της Πολιτικής Προστασίας. 
