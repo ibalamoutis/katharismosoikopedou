@@ -38,6 +38,7 @@
     footer {text-align:center; padding:20px; background:#333; color:#fff; font-size:14px;}
     footer a {color:#ff7f00; text-decoration:none;}
     @media (max-width:768px){.top-bar{font-size:18px;} header h1{font-size:26px;} header button{font-size:26px; padding:12px 20px;} section{padding:20px 15px;} .gallery{grid-template-columns:1fr;}}
+  .before-after-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:30px}.before-after-card{background:#fff;padding:15px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.15)}.slider-container{position:relative;overflow:hidden}.slider-container>img,.after-image img{width:100%;display:block}.after-image{position:absolute;left:0;top:0;width:50%;overflow:hidden;height:100%}.ba-labels{display:flex;justify-content:space-between;color:#ff7f00;font-weight:bold}.ba-slider{width:100%}
   </style>
   <script>
     function showOffer(){document.getElementById('offerModal').style.display='flex';}
@@ -137,6 +138,31 @@
       <img src="katharismos4.jpg" alt="Αποψίλωση οικοπέδου Καρέας επαγγελματικός εξοπλισμός">
     </div>
   </section>
+<section><h2>Πριν &amp; Μετά τον Καθαρισμό</h2><div class="before-after-grid"><div class="before-after-card"><h3>Έργο 1</h3>
+	<div class="slider-container"><img src="before1.jpg">
+		<div class="after-image"><img src="after1.jpg"></div>
+	</div><div class="ba-labels"><span>ΠΡΙΝ</span><span>ΜΕΤΑ</span></div><input class="ba-slider" type="range" min="0" max="100" value="50"></div>
+	<div class="before-after-card"><h3>Έργο 2</h3><div class="slider-container"><img src="before2.jpg">
+		<div class="after-image"><img src="after2.jpg"></div></div><div class="ba-labels"><span>ΠΡΙΝ</span>
+			<span>ΜΕΤΑ</span></div><input class="ba-slider" type="range" min="0" max="100" value="50"></div><div class="before-after-card">
+				<h3>Έργο 3</h3><div class="slider-container"><img src="before3.jpg"><div class="after-image"><img src="after3.jpg">
+				</div></div><div class="ba-labels"><span>ΠΡΙΝ</span><span>ΜΕΤΑ</span></div><input class="ba-slider" type="range" min="0" max="100" value="50">
+			</div><div class="before-after-card"><h3>Έργο 4</h3><div class="slider-container"><img src="before4.jpg"><div class="after-image"><img src="after4.jpg">
+			</div></div><div class="ba-labels"><span>ΠΡΙΝ</span><span>ΜΕΤΑ</span></div><input class="ba-slider" type="range" min="0" max="100" value="50">
+			</div><div class="before-after-card"><h3>Έργο 5</h3><div class="slider-container"><img src="before5.jpg"><div class="after-image"><img src="after5.jpg">
+			</div></div><div class="ba-labels"><span>ΠΡΙΝ</span><span>ΜΕΤΑ</span></div><input class="ba-slider" type="range" min="0" max="100" value="50"></div>
+	<div class="before-after-card"><h3>Έργο 6</h3><div class="slider-container"><img src="before6.jpg"><div class="after-image"><img src="after6.jpg"></div></div>
+		<div class="ba-labels"><span>ΠΡΙΝ</span><span>ΜΕΤΑ</span></div><input class="ba-slider" type="range" min="0" max="100" value="50"></div>
+	<div class="before-after-card"><h3>Έργο 7</h3><div class="slider-container"><img src="before7.jpg"><div class="after-image"><img src="after7.jpg"></div>
+	</div><div class="ba-labels"><span>ΠΡΙΝ</span><span>ΜΕΤΑ</span></div><input class="ba-slider" type="range" min="0" max="100" value="50"></div>
+	<div class="before-after-card"><h3>Έργο 8</h3><div class="slider-container"><img src="before8.jpg"><div class="after-image"><img src="after8.jpg">
+	</div></div><div class="ba-labels"><span>ΠΡΙΝ</span><span>ΜΕΤΑ</span></div><input class="ba-slider" type="range" min="0" max="100" value="50"></div>
+	<div class="before-after-card"><h3>Έργο 9</h3><div class="slider-container"><img src="before9.jpg"><div class="after-image"><img src="after9.jpg">
+	</div></div><div class="ba-labels"><span>ΠΡΙΝ</span><span>ΜΕΤΑ</span></div><input class="ba-slider" type="range" min="0" max="100" value="50">
+	</div></div>
+</section>
+
+	
   <footer>
     <p>Εξυπηρετούμε: <a href="https://ibalamoutis.github.io/katharismosoikopedou/AgiaParaskeyi/">Αγία Παρασκευή</a>,
 		<a href="https://ibalamoutis.github.io/katharismosoikopedou/agiosdimitrios/">Άγιος Δημήτριος</a>, 
@@ -203,6 +229,6 @@
 		<p></p>© 2025 Καθαρισμός Οικοπέδων - Τάσος</p>
     <p>Για γενικές πληροφορίες και άμεση προσφορά για <a href="https://ibalamoutis.github.io/katharismosoikopedou/"> καθαρισμό οικοπέδου</a> πατήστε εδώ.</p>
   </footer>
-     
+      <script>document.querySelectorAll('.before-after-card').forEach(c=>{const s=c.querySelector('.ba-slider'),a=c.querySelector('.after-image');s.oninput=()=>a.style.width=s.value+'%';});</script>    
 </body>
 </html>
